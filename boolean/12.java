@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class boolean12 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("a = ");
+        int a = scanner.nextInt();
+        System.out.print("b = ");
+        int b = scanner.nextInt();
+        System.out.print("c = ");
+        int c = scanner.nextInt();
+        boolean d = ( (a>0) && (b>0) && (c>0));
+        System.out.println(d);
+    }
+}
